@@ -1,0 +1,63 @@
+#mainimg{
+    width: 50%;
+    
+}
+
+#divtst{
+    background-image: url("../../public/e9lohull.bmp");
+    height: 500px;
+    width: auto;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+
+#blackdiv{
+    background-color: rgba(0, 0, 0,0.5);
+    width: 700px;
+    height: 350px;
+    margin: auto;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+#crlink{
+    color: white;
+}
+
+
+
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+}
+
+#crrow{
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+#slash{
+    color: orange;
+    font-size: 40px;
+}
+
+#Courses{
+    color: black;
+    font-size: 30px;
+}
+
+
+
+

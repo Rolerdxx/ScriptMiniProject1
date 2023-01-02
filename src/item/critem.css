@@ -1,0 +1,18 @@
+
+#itemdiv{
+    height: 200px;
+    width: 100%;
+    min-width: 200px;
+    min-height: 200px;
+    margin: auto;
+    background-image: url("../itemimg/phpCRUD.png");
+    background-size: cover;
+}
+
+#itemmain{
+    padding: 10px;
+    margin: 20px;
+    max-width:400px;
+}
+
+
