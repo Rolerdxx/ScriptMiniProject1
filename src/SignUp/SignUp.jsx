@@ -92,7 +92,7 @@ const SignUp = () => {
             helperText={isActive3 ? 'Its not the same password' : ' '}
           />
           <br />
-          <Button variant="contained" href="/pro">Sign Up</Button>
+          <Button variant="contained" href="/ScriptMiniProject1/pro">Sign Up</Button>
         </form>
       </div>
     </>

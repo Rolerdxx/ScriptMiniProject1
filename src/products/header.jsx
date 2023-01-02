@@ -1,45 +1,3 @@
-// import { Link } from "react-router-dom";
-
-// const Header = () => {
-//   return (
-//     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-//       <div class="container-fluid">
-//         <Link class="navbar-brand" to="/">
-//           Home
-//         </Link>
-//         <button
-//           class="navbar-toggler"
-//           type="button"
-//           data-bs-toggle="collapse"
-//           data-bs-target="#navbarNav"
-//           aria-controls="navbarNav"
-//           aria-expanded="false"
-//           aria-label="Toggle navigation">
-//           <span class="navbar-toggler-icon"></span>
-//         </button>
-//         <div class="collapse navbar-collapse" id="navbarNav">
-//           <ul class="navbar-nav">
-//             <li class="nav-item">
-//               <Link class="nav-link active" aria-current="page" to="/items">
-//                 Courses
-//               </Link>
-//             </li>
-//             <li class="nav-item">
-//               <Link class="nav-link" href="#">
-//                 About
-//               </Link>
-//             </li>
-
-           
-//           </ul>
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// };
-
-
-// export default Header;
 
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
@@ -50,33 +8,23 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import { Link } from 'react-router-dom';
+
 
 const pages = ['Courses', 'About'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
+
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
-  };
-
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
   };
 
   return (
@@ -88,7 +36,7 @@ function ResponsiveAppBar() {
             variant="h6"
             noWrap
             component="a"
-            href="/"
+            href="/ScriptMiniProject1"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },

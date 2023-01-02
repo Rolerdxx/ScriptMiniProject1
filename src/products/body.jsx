@@ -1,5 +1,4 @@
 import "./body.css";
-import { Link } from "react-router-dom";
 import Critem from "../item/critem";
 import Button from "@mui/material/Button";
 import img from "./phpCRUD.png"
@@ -11,7 +10,7 @@ const Body = () => {
         <div id="blackdiv">
           <h1>Eat(), Sleep(), Code(), Repeat()</h1>
           <p>While You Are Alive</p>
-          <Button variant="contained" size="medium" href="/items">
+          <Button variant="contained" size="medium" href="/ScriptMiniProject1/items">
             COURSES LIST
           </Button>
         </div>
@@ -33,7 +32,7 @@ const Body = () => {
       <div
         className="row align-items-center"
         style={{ width: "100%", margin: "20px" }}>
-        <Button variant="contained" size="medium" href="/items">
+        <Button variant="contained" size="medium" href="/ScriptMiniProject1/items">
             COURSES LIST
           </Button>
       </div>
