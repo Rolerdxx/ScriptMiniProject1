@@ -1,19 +1,35 @@
 {
   "files": {
-    "main.css": "/ScriptMiniProject1/static/css/main.10ca52b1.css",
-    "main.js": "/ScriptMiniProject1/static/js/main.7ace3dcb.js",
+    "main.css": "/ScriptMiniProject1/static/css/main.9b0fa338.css",
+    "main.js": "/ScriptMiniProject1/static/js/main.c88b63c1.js",
     "static/js/787.d57e59bf.chunk.js": "/ScriptMiniProject1/static/js/787.d57e59bf.chunk.js",
     "static/media/e9lohull.bmp": "/ScriptMiniProject1/static/media/e9lohull.61badc823365780bf942.bmp",
     "static/media/pexels-jessica-lewis-creative-583848.jpg": "/ScriptMiniProject1/static/media/pexels-jessica-lewis-creative-583848.95ce34a9f222df0244ce.jpg",
-    "static/media/unnamed.png": "/ScriptMiniProject1/static/media/unnamed.af649e2bff66474f7e81.png",
+    "static/media/cssProperties.png": "/ScriptMiniProject1/static/media/cssProperties.83ad67cf63bbb6821004.png",
+    "static/media/javascriptDef.png": "/ScriptMiniProject1/static/media/javascriptDef.25f25751792e7cd56fbc.png",
+    "static/media/phpBasics.png": "/ScriptMiniProject1/static/media/phpBasics.1e2b99653d4ab449156c.png",
+    "static/media/cssMesures.png": "/ScriptMiniProject1/static/media/cssMesures.f1e23f0d9bc639eeaf0f.png",
+    "static/media/javascriptEvents.png": "/ScriptMiniProject1/static/media/javascriptEvents.0fe658cad9a1d43826dd.png",
+    "static/media/cssSelectors.jpg": "/ScriptMiniProject1/static/media/cssSelectors.b28dd4fc05246dbde46a.jpg",
+    "static/media/javascriptObjects.png": "/ScriptMiniProject1/static/media/javascriptObjects.b401f07c5d8733d9c206.png",
+    "static/media/htmlBasics.PNG": "/ScriptMiniProject1/static/media/htmlBasics.7afeca102c8a993605f6.PNG",
+    "static/media/cssColors.png": "/ScriptMiniProject1/static/media/cssColors.5f26e391a338357a1968.png",
+    "static/media/javascriptDOM.png": "/ScriptMiniProject1/static/media/javascriptDOM.8bc26c0c67287b6a6fb3.png",
+    "static/media/javascriptVariables.png": "/ScriptMiniProject1/static/media/javascriptVariables.6a68a468211022768755.png",
+    "static/media/javascriptFunctions2.png": "/ScriptMiniProject1/static/media/javascriptFunctions2.dcd32a256dcda5e67ca5.png",
     "static/media/phpCRUD.png": "/ScriptMiniProject1/static/media/phpCRUD.f8dd241bbb766e24c12d.png",
+    "static/media/htmlAttrVal.jpg": "/ScriptMiniProject1/static/media/htmlAttrVal.db3769d713fc67748f4a.jpg",
+    "static/media/htmlElements.png": "/ScriptMiniProject1/static/media/htmlElements.bb6fde80aafce69ad98d.png",
+    "static/media/javascriptOperators.png": "/ScriptMiniProject1/static/media/javascriptOperators.2a3ef8bed2f129e8dd54.png",
+    "static/media/phpDataBase.png": "/ScriptMiniProject1/static/media/phpDataBase.50ed7bca1bbd7644f983.png",
+    "static/media/javascriptFunctions.png": "/ScriptMiniProject1/static/media/javascriptFunctions.bf4c8b3b2f6f1db648af.png",
     "index.html": "/ScriptMiniProject1/index.html",
-    "main.10ca52b1.css.map": "/ScriptMiniProject1/static/css/main.10ca52b1.css.map",
-    "main.7ace3dcb.js.map": "/ScriptMiniProject1/static/js/main.7ace3dcb.js.map",
+    "main.9b0fa338.css.map": "/ScriptMiniProject1/static/css/main.9b0fa338.css.map",
+    "main.c88b63c1.js.map": "/ScriptMiniProject1/static/js/main.c88b63c1.js.map",
     "787.d57e59bf.chunk.js.map": "/ScriptMiniProject1/static/js/787.d57e59bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10ca52b1.css",
-    "static/js/main.7ace3dcb.js"
+    "static/css/main.9b0fa338.css",
+    "static/js/main.c88b63c1.js"
   ]
 }
