@@ -1,21 +1,17 @@
-div {
+/* div {
   width: 60%;
   margin: auto;
   align-items: center;
   text-align: center;
-}
+} */
 
 
 
 #d1{
-    border : 2px solid black;
-    padding-left: 2cm;
-    padding-right: 2cm;
-    padding-bottom: 1cm;
-    margin-top: 1cm;
-    border-radius: 7%;
     background-color: rgba(255, 255, 255,0.7);
-    position: absolute;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 input {
@@ -42,15 +38,15 @@ input {
   color: white;
 }
 
-img{
-  position: absolute;
-  margin-top: 200px;
-  margin-left: 200px
-}
-
 body{
   background-image: url("../../public/pexels-jessica-lewis-creative-583848.jpg");
   background-size: cover;
+}
+
+
+.ii{
+  width: 50%;
+  margin: auto;
 }
 
 

@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
 import "./SignUp.css";
-import img from "./unnamed.png";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
+import {useNavigate} from "react-router-dom";
 
 const SignUp = () => {
   const [username, setusername] = useState("");
@@ -14,6 +14,15 @@ const SignUp = () => {
   const [isActive1, setIsActive1] = useState(false);
   const [isActive2, setIsActive2] = useState(false);
   const [isActive3, setIsActive3] = useState(false);
+  const [shouldRedirect,setRe] = useState(false);
+
+  const navigate = useNavigate();
+
+  React.useEffect(() => {
+    if (shouldRedirect) {
+      navigate('/ScriptMiniProject1/pro');
+    }
+  });
 
   const Upuser = (e) => {
     setusername(e.target.value);
@@ -53,23 +62,23 @@ const SignUp = () => {
     }
   };
 
-  const sub = (e) => {
-    e.preventDefault();
-  };
-
   return (
     <>
-      <img src={img} alt="Logo" />
-      <div id="d1">
-        <form onSubmit={sub}>
-          <h1 style={{ color: "black" }}>Sign Up</h1>
-          <TextField
+      <div className="container" id="d1">
+
+        <div className="row">
+        <h1 style={{ color: "black" ,width:"100%",textAlign:"center"}}>Sign Up</h1>
+        </div>
+        <div className="row ii">
+        <TextField
             error={isActive}
             onChange={event => Upuser(event)}
             id={isActive ? "outlined-error-helper-text" : "outlined-required"}
             label="Username"
             helperText={isActive ? 'Username must be higher than 3 and lower than 25 letters' : ' '}
           />
+        </div>
+        <div className="row ii">
           <TextField
             error={isActive1}
             onChange={event => Upmail(event)}
@@ -77,23 +86,28 @@ const SignUp = () => {
             label="Email"
             helperText={isActive1 ? 'You have to respect the email format' : ' '}
           />
-          <TextField
+        </div>
+        <div className="row ii">
+        <TextField
             error={isActive2}
             onChange={event => Uppass(event)}
             id={isActive2 ? "outlined-error-helper-text" : "outlined-required"}
             label="Password"
             helperText={isActive2 ? 'Your password has to be lower than 8 letters and has aleast 1 uppercase 1 lowercase 1 number 1 and 1 non letter' : ' '}
           />
-          <TextField
+        </div>
+        <div className="row ii">
+        <TextField
             error={isActive3}
             onChange={event => Upcpass(event)}
             id={isActive3 ? "outlined-error-helper-text" : "outlined-required"}
             label="Confirm Password"
             helperText={isActive3 ? 'Its not the same password' : ' '}
           />
-          <br />
-          <Button variant="contained" href="/ScriptMiniProject1/pro">Sign Up</Button>
-        </form>
+        </div>
+        <div style={{width:"10%",margin:"auto"}}>
+          <Button variant="contained" onClick={()=>!isActive&&!isActive1&&!isActive2&&!isActive3 ? setRe(true) : alert("Error")}>Sign Up</Button>
+        </div>          
       </div>
     </>
   );
