@@ -40,6 +40,9 @@ const Body = () => {
         <div className="col">
         <Critem title={items[1].title} price={items[1].price} image={items[1].image}/>
         </div>
+        <div className="col">
+        <Critem title={items[2].title} price={items[2].price} image={items[2].image}/>
+        </div>
         
       </div>
       <div
